@@ -1,0 +1,24 @@
+.TabularList{
+    color: #fff;
+    background-color: #b3b3b3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #fff, inset 1px 1px 2px #6d6d6d;
+    transition: ease-in 200ms;
+}
+@media (max-width: 750px) {
+    .TabularList{
+        box-shadow: inset 2px 2px 2px #fff, 1px 1px 2px #6d6d6d;
+    }
+}
+.TabularList__header{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr;
+}
+.TabularList__name{
+    grid-column-start: 2;
+}
+.TabularList__type{}
+.TabularList__color{}
